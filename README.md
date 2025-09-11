@@ -29,18 +29,17 @@ The goal is to simulate real-world scenarios where users may have trouble access
 - Right-click → **Properties → Sharing → Advanced Sharing**  
 - Check **Share this folder**  
 - Set share name: `FinanceShare`  
+<img width="807" height="649" alt="Screen Shot 2025-09-11 at 5 42 12 PM" src="https://github.com/user-attachments/assets/032ac701-496e-4f12-a77d-5b0eb8d85f6a" />
 
-📸 Screenshot: ![Create Share](./screenshots/file_share/01_create_share.png)
 
----
 
 ### 2. Configure Share Permissions
 - Click **Permissions**  
 - Add **HR group** → Full Control (or Read/Write)  
 - Remove unnecessary groups or users  
 - Click **OK**  
+<img width="1001" height="558" alt="Screen Shot 2025-09-11 at 5 46 00 PM" src="https://github.com/user-attachments/assets/9ee3f63b-5fcc-4477-b659-ceb0f6e9b88e" />
 
-📸 Screenshot: ![Share Permissions](./screenshots/file_share/02_share_permissions.png)
 
 ---
 
@@ -49,8 +48,8 @@ The goal is to simulate real-world scenarios where users may have trouble access
 - Add **HR group** → Modify (or Read/Write)  
 - Ensure non-HR users have limited or no access  
 - Click **OK**  
+<img width="461" height="538" alt="Screen Shot 2025-09-11 at 5 52 44 PM" src="https://github.com/user-attachments/assets/b3d70bb8-c538-42ce-b0c0-0959fae66ece" />
 
-📸 Screenshot: ![NTFS Permissions](./screenshots/file_share/03_ntfs_permissions.png)
 
 ---
 
@@ -58,8 +57,9 @@ The goal is to simulate real-world scenarios where users may have trouble access
 - Log in as **Alice HR** on Client-1  
 - Open **Run → `\\DC-1\FinanceShare`**  
 - Verify **Read/Write access** by creating a test file  
+<img width="1155" height="653" alt="Screen Shot 2025-09-11 at 6 00 25 PM" src="https://github.com/user-attachments/assets/bfd72666-3efa-4bc9-bcef-483a9be8c98b" />
+<img width="1223" height="641" alt="Screen Shot 2025-09-11 at 6 00 42 PM" src="https://github.com/user-attachments/assets/31a2d252-0364-4b4f-be6a-7364606061d6" />
 
-📸 Screenshot: ![HR Access](./screenshots/file_share/04_hr_access.png)
 
 ---
 
@@ -67,8 +67,9 @@ The goal is to simulate real-world scenarios where users may have trouble access
 - Log in as **Charlie** (or other non-HR user)  
 - Open **Run → `\\DC-1\FinanceShare`**  
 - Verify **access denied** message appears  
+<img width="1440" height="900" alt="Screen Shot 2025-09-11 at 6 07 37 PM" src="https://github.com/user-attachments/assets/1fa41fa1-3ca8-4ed8-84a1-97a0294bb672" />
 
-📸 Screenshot: ![Non-HR Access Denied](./screenshots/file_share/05_non_hr_denied.png)
+
 
 ---
 
