@@ -77,8 +77,16 @@ The goal is to simulate real-world scenarios where users may have trouble access
 - **Issue:** HR user cannot write to share  
   - **Fix:** Check NTFS and Share permissions, ensure user is member of HR group, run `gpupdate /force` on client  
 <img width="1080" height="564" alt="Screen Shot 2025-09-11 at 6 18 35 PM" src="https://github.com/user-attachments/assets/663ccc5e-7b62-49aa-b647-38a5bb90dcc5" />
+
+
 <img width="1017" height="631" alt="Screen Shot 2025-09-11 at 6 20 02 PM" src="https://github.com/user-attachments/assets/c2e58d26-5a34-476d-b449-a20edc6f64a0" />
+
+
 <img width="683" height="638" alt="Screen Shot 2025-09-11 at 6 20 10 PM" src="https://github.com/user-attachments/assets/7ccf4b1c-cd7d-4f3d-be8b-b2f6caa5dcdb" />
+
+
+<img width="822" height="387" alt="Screen Shot 2025-09-11 at 6 21 26 PM" src="https://github.com/user-attachments/assets/8d0e9db1-91de-4ce7-a373-47249716ff87" />
+
 
 
 
