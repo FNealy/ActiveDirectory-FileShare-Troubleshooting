@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.imgur.com/PtfTxY3.png" alt="File Share & NTFS Permissions Logo" width="200"/>
+</p>
+
 # File Share & NTFS Permissions Troubleshooting
 
 ## 🔹 Overview
