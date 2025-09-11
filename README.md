@@ -1,4 +1,4 @@
-File Share & NTFS Permissions Troubleshooting
+# Lab 3: File Share & NTFS Permissions Troubleshooting
 
 ## 🔹 Overview
 This lab demonstrates **help desk tasks related to shared network folders in Active Directory**.  
@@ -98,4 +98,5 @@ The goal is to simulate real-world scenarios where users may have trouble access
 - Implement folder redirection for HR users via GPO  
 - Audit shared folder access with Windows auditing  
 - Automate permissions assignment using PowerShell scripts
+
 
