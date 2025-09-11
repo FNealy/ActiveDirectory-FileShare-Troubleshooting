@@ -1,4 +1,4 @@
-# 🖥️ Lab 3: File Share & NTFS Permissions Troubleshooting
+File Share & NTFS Permissions Troubleshooting
 
 ## 🔹 Overview
 This lab demonstrates **help desk tasks related to shared network folders in Active Directory**.  
