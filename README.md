@@ -12,9 +12,6 @@ The goal is to simulate real-world scenarios where users may have trouble access
   - `DC-1` → Domain Controller + DNS + File Share  
   - `Client-1` → Domain-joined workstation  
 
-📊 **Diagram (reuse AD Lab diagram)**:  
-![AD Lab Diagram](./diagrams/ad_lab_diagram.png)
-
 ---
 
 ## 🔹 Features Implemented
