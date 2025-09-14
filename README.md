@@ -14,7 +14,44 @@ The goal is to simulate real-world scenarios where users may have trouble access
 - **Azure Virtual Network (VNet)**: `10.0.0.0/24`  
 - **Virtual Machines**:
   - `DC-1` → Domain Controller + DNS + File Share  
-  - `Client-1` → Domain-joined workstation  
+  - `Client-1` → Domain-joined workstation
+ 
+---
+
+## 🔹 Environments & Technologies Used
+- **Microsoft Azure** (cloud infrastructure)  
+- **Azure Virtual Network (VNet)** for VM communication  
+- **Active Directory Domain Services (AD DS)** for centralized authentication  
+- **File & Storage Services** (Windows Server role) for shared folders  
+- **NTFS Permissions** for file-level access control  
+- **Remote Desktop Protocol (RDP)** for VM access and testing  
+
+---
+
+## 🔹 Operating Systems Used
+- **Windows Server 2019 Datacenter** → `DC-1` (Domain Controller, DNS, File Server)  
+- **Windows 10 Pro** → `Client-1` (Domain-joined workstation)  
+
+---
+
+## 🔹 Prerequisites
+- Active **Microsoft Azure subscription**  
+- Basic understanding of:  
+  - Active Directory Users and Computers (ADUC)  
+  - Share vs NTFS permission models  
+  - Group membership management in AD  
+- **VM Setup**:  
+  - `DC-1`: Static private IP assigned  
+  - `Client-1`: Configured to use DC-1 as DNS  
+- **Groups & Users**:  
+  - `HR` group created in AD  
+  - Test accounts (`Alice HR`, `Charlie`) added  
+- **Permissions**:  
+  - Folder `C:\FinanceShare` created on DC-1  
+  - Proper NTFS & Share-level permissions configured for HR group  
+
+---
+
 
 ---
 
