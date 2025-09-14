@@ -29,7 +29,7 @@ The goal is to simulate real-world scenarios where users may have trouble access
 ---
 
 ## 🔹 Operating Systems Used
-- **Windows Server 2019 Datacenter** → `DC-1` (Domain Controller, DNS, File Server)  
+- **Windows Server 2022 Datacenter** → `DC-1` (Domain Controller, DNS, File Server)  
 - **Windows 10 Pro** → `Client-1` (Domain-joined workstation)  
 
 ---
