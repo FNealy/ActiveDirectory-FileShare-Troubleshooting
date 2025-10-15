@@ -4,13 +4,12 @@
 
 # File Share & NTFS Permissions Troubleshooting
 
-## 🔹 Overview
-This lab demonstrates **help desk tasks related to shared network folders in Active Directory**.  
+##This lab demonstrates **help desk tasks related to shared network folders in Active Directory**.  
 The goal is to simulate real-world scenarios where users may have trouble accessing shared files and show how to troubleshoot and fix NTFS and Share-level permissions.
 
 ---
 
-## 🔹 Architecture
+## Architecture
 - **Azure Virtual Network (VNet)**: `10.0.0.0/24`  
 - **Virtual Machines**:
   - `DC-1` → Domain Controller + DNS + File Share  
@@ -18,7 +17,7 @@ The goal is to simulate real-world scenarios where users may have trouble access
  
 ---
 
-## 🔹 Environments & Technologies Used
+## Environments & Technologies Used
 - **Microsoft Azure** (cloud infrastructure)  
 - **Azure Virtual Network (VNet)** for VM communication  
 - **Active Directory Domain Services (AD DS)** for centralized authentication  
@@ -28,13 +27,13 @@ The goal is to simulate real-world scenarios where users may have trouble access
 
 ---
 
-## 🔹 Operating Systems Used
-- **Windows Server 2022 Datacenter** → `DC-1` (Domain Controller, DNS, File Server)  
-- **Windows 10 Pro** → `Client-1` (Domain-joined workstation)  
+## Operating Systems Used
+- Windows Server 2022 Datacenter 
+- Windows 10 Pro
 
 ---
 
-## 🔹 Prerequisites
+## Prerequisites
 - Active **Microsoft Azure subscription**  
 - Basic understanding of:  
   - Active Directory Users and Computers (ADUC)  
@@ -55,7 +54,7 @@ The goal is to simulate real-world scenarios where users may have trouble access
 
 ---
 
-## 🔹 Features Implemented
+## Features Implemented
 ✅ Created shared folder on DC-1: `\\DC-1\FinanceShare`  
 ✅ Applied **NTFS and Share-level permissions** for HR group  
 ✅ Simulated access issues for non-HR users  
@@ -63,7 +62,7 @@ The goal is to simulate real-world scenarios where users may have trouble access
 
 ---
 
-## 🔹 Implementation Steps
+## Implementation Steps
 
 ### 1. Create a Shared Folder
 - On DC-1, create folder: `C:\FinanceShare`  
@@ -131,7 +130,7 @@ The goal is to simulate real-world scenarios where users may have trouble access
 
 
 
-## 🔹 Skills Demonstrated
+## Skills Demonstrated
 - Configuring network file shares  
 - Managing NTFS and Share-level permissions  
 - Understanding AD group membership for access control  
@@ -140,7 +139,7 @@ The goal is to simulate real-world scenarios where users may have trouble access
 
 ---
 
-## 🔹 Next Steps / Enhancements
+## Next Steps / Enhancements
 - Implement folder redirection for HR users via GPO  
 - Audit shared folder access with Windows auditing  
 - Automate permissions assignment using PowerShell scripts
